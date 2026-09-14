@@ -13,7 +13,7 @@
                <children>
                   <VBox alignment="CENTER_LEFT" prefHeight="159.0" prefWidth="151.0">
                      <children>
-                        <RadioButton mnemonicParsing="false" text="Piros">
+                        <RadioButton fx:id="piros" mnemonicParsing="false" onAction="#onSzinClick" text="Piros">
                            <VBox.margin>
                               <Insets bottom="25.0" />
                            </VBox.margin>
@@ -21,20 +21,20 @@
                               <ToggleGroup fx:id="szin" />
                            </toggleGroup>
                         </RadioButton>
-                        <RadioButton mnemonicParsing="false" text="Zöld" toggleGroup="$szin">
+                        <RadioButton fx:id="zold" mnemonicParsing="false" onAction="#onSzinClick" text="Zöld" toggleGroup="$szin">
                            <VBox.margin>
                               <Insets bottom="25.0" />
                            </VBox.margin>
                         </RadioButton>
-                        <RadioButton mnemonicParsing="false" text="Kék" toggleGroup="$szin" />
+                        <RadioButton fx:id="kek" mnemonicParsing="false" onAction="#onSzinClick" text="Kék" toggleGroup="$szin" />
                      </children>
                      <padding>
-                        <Insets left="10.0" />
+                        <Insets left="25.0" />
                      </padding>
                   </VBox>
                   <VBox alignment="CENTER_LEFT" prefHeight="159.0" prefWidth="149.0">
                      <children>
-                        <RadioButton mnemonicParsing="false" text="Négyzet">
+                        <RadioButton fx:id="negyzet" mnemonicParsing="false" onAction="#onAlakzatClick" text="Négyzet">
                            <VBox.margin>
                               <Insets bottom="25.0" />
                            </VBox.margin>
@@ -42,12 +42,12 @@
                               <ToggleGroup fx:id="forma" />
                            </toggleGroup>
                         </RadioButton>
-                        <RadioButton mnemonicParsing="false" text="Kör" toggleGroup="$forma">
+                        <RadioButton fx:id="kor" mnemonicParsing="false" onAction="#onAlakzatClick" text="Kör" toggleGroup="$forma">
                            <VBox.margin>
                               <Insets bottom="25.0" />
                            </VBox.margin>
                         </RadioButton>
-                        <RadioButton mnemonicParsing="false" text="Háromszög" toggleGroup="$forma" />
+                        <RadioButton fx:id="haromszog" mnemonicParsing="false" onAction="#onAlakzatClick" text="Háromszög" toggleGroup="$forma" />
                      </children>
                      <padding>
                         <Insets left="10.0" />
@@ -55,7 +55,7 @@
                   </VBox>
                </children>
             </HBox>
-            <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fitHeight="225.0" fitWidth="225.0" pickOnBounds="true" preserveRatio="true" />
          </children>
       </VBox>
       <VBox alignment="TOP_CENTER" prefHeight="400.0" prefWidth="300.0">
@@ -82,7 +82,7 @@
                      </graphic></Button>
                </children>
             </HBox>
-            <ListView prefHeight="228.0" prefWidth="300.0" />
+            <ListView fx:id="listview" prefHeight="228.0" prefWidth="300.0" />
             <Button mnemonicParsing="false" prefWidth="100.0" text="Mentés">
                <VBox.margin>
                   <Insets top="25.0" />
