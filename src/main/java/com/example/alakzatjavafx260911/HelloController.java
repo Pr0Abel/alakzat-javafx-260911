@@ -42,7 +42,15 @@ public class HelloController {
     public void onSzinClick(ActionEvent actionEvent) {
         RadioButton radioButton = (RadioButton) actionEvent.getSource();
         szin = radioButton.getText().toLowerCase();
-        l_kep.setStyle("-fx-background-color:red; -fx-border-color: black;");
+
+        String szinNEv = switch (szin) {
+            case "piros" -> "red";
+            case "kék" -> "blue";
+            case "zöld" -> "green";
+            default -> null;
+        };
+
+        l_kep.setStyle("-fx-background-color:"+szinNEv+";");
     }
     public void onAlakzatClick(ActionEvent actionEvent) {
         RadioButton radioButton = (RadioButton) actionEvent.getSource();
@@ -54,7 +62,6 @@ public class HelloController {
             case "négyzet" -> "negyzet.png";
             default -> null;
         };
-        System.out.println(kepNev);
 
         if (kepNev != null) {
             Image image = new Image("file:icons/icons/"+kepNev);
