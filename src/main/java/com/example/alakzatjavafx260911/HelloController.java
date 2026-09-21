@@ -1,5 +1,7 @@
 package com.example.alakzatjavafx260911;
 
+import javafx.collections.FXCollections;
+import javafx.collections.ObservableList;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.Label;
@@ -8,8 +10,10 @@ import javafx.scene.control.RadioButton;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 
-import java.text.Normalizer;
-import java.util.Objects;
+import java.io.BufferedReader;
+import java.io.File;
+import java.io.FileReader;
+import java.io.IOException;
 
 public class HelloController {
     @FXML
@@ -35,8 +39,29 @@ public class HelloController {
     String szin = "";
     String alakzat = "";
 
-    public void initialize() {
 
+    private ObservableList<Alakzat> alakzatLista = FXCollections.observableArrayList();
+
+    public void initialize() {
+        lv_lista.setItems(alakzatLista);
+
+        File file = new File("alakzat.dat");
+
+        try (BufferedReader reader = new BufferedReader(new FileReader(file))) {
+            String sor;
+            while ((sor = reader.readLine()) != null) {
+                if (sor.trim().isEmpty()) continue;
+
+                String[] alakzat = sor.split(";");
+                if (alakzat.length == 2) {
+                    String szinAdat = alakzat[0].trim();
+                    String alakzatAdat = alakzat[1].trim();
+                    alakzatLista.add(new Alakzat(szinAdat, alakzatAdat));
+                }
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
 
     public void onSzinClick(ActionEvent actionEvent) {
@@ -71,11 +96,16 @@ public class HelloController {
     }
 
     public void onHozzaad(ActionEvent actionEvent) {
-
+        if (!szin.isEmpty() && !alakzat.isEmpty()) {
+            alakzatLista.add(new Alakzat(szin, alakzat));
+        }
     }
 
     public void onTorol(ActionEvent actionEvent) {
-
+        //Alakzat kivalasztott = lv_lista.getSelectionModel().getSelectedItem();
+        //if (kivalasztott != null) {
+            //alakzatLista.remove(kivalasztott);
+        //}
     }
 
     public void onMentes(ActionEvent actionEvent) {
