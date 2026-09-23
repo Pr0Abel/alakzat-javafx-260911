@@ -19,6 +19,6 @@ public class Alakzat {
 
     @Override
     public String toString() {
-        return szin + ";" + alakzat;
+        return szin + ", " + alakzat;
     }
 }

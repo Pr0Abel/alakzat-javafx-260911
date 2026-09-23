@@ -10,10 +10,8 @@ import javafx.scene.control.RadioButton;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 
-import java.io.BufferedReader;
-import java.io.File;
-import java.io.FileReader;
-import java.io.IOException;
+import java.io.*;
+import java.util.ArrayList;
 
 public class HelloController {
     @FXML
@@ -102,14 +100,23 @@ public class HelloController {
     }
 
     public void onTorol(ActionEvent actionEvent) {
-        //Alakzat kivalasztott = lv_lista.getSelectionModel().getSelectedItem();
-        //if (kivalasztott != null) {
-            //alakzatLista.remove(kivalasztott);
-        //}
+        Object kivalasztott = lv_lista.getSelectionModel().getSelectedItem();
+        if (kivalasztott != null) {
+            alakzatLista.remove(kivalasztott);
+        }
     }
 
     public void onMentes(ActionEvent actionEvent) {
+        File file = new File("alakzat.dat");
 
+        try (BufferedWriter writer = new BufferedWriter(new FileWriter(file))) {
+            for (Alakzat elem : alakzatLista) {
+                writer.write(elem.getSzin() + ";" + elem.getAlakzat());
+                writer.newLine();
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
 }
 
