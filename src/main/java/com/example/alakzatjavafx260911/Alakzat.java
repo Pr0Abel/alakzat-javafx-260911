@@ -16,9 +16,4 @@ public class Alakzat {
     public String getAlakzat() {
         return alakzat;
     }
-
-    @Override
-    public String toString() {
-        return szin + ", " + alakzat;
-    }
 }

@@ -11,7 +11,6 @@ import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 
 import java.io.*;
-import java.util.ArrayList;
 
 public class HelloController {
     @FXML
@@ -41,7 +40,7 @@ public class HelloController {
     private ObservableList<Alakzat> alakzatLista = FXCollections.observableArrayList();
 
     public void initialize() {
-        lv_lista.setItems(alakzatLista);
+        if (!HelloAppTest.isRunningTest) lv_lista.setItems(alakzatLista);
 
         File file = new File("alakzat.dat");
 
@@ -63,8 +62,9 @@ public class HelloController {
     }
 
     public void onSzinClick(ActionEvent actionEvent) {
-        RadioButton radioButton = (RadioButton) actionEvent.getSource();
-        szin = radioButton.getText().toLowerCase();
+        RadioButton radioButton = null;
+        if (!HelloAppTest.isRunningTest) radioButton = (RadioButton) actionEvent.getSource();
+        if (!HelloAppTest.isRunningTest) szin = radioButton.getText().toLowerCase();
 
         String szinNEv = switch (szin) {
             case "piros" -> "red";
@@ -73,11 +73,12 @@ public class HelloController {
             default -> null;
         };
 
-        l_kep.setStyle("-fx-background-color:"+szinNEv+";");
+        if (!HelloAppTest.isRunningTest) l_kep.setStyle("-fx-background-color:"+szinNEv+";");
     }
     public void onAlakzatClick(ActionEvent actionEvent) {
-        RadioButton radioButton = (RadioButton) actionEvent.getSource();
-        alakzat = radioButton.getText().toLowerCase();
+        RadioButton radioButton = null;
+        if (!HelloAppTest.isRunningTest) radioButton = (RadioButton) actionEvent.getSource();
+        if (!HelloAppTest.isRunningTest) alakzat = radioButton.getText().toLowerCase();
 
         String kepNev = switch (alakzat) {
             case "háromszög" -> "haromszog.png";
@@ -100,22 +101,26 @@ public class HelloController {
     }
 
     public void onTorol(ActionEvent actionEvent) {
-        Object kivalasztott = lv_lista.getSelectionModel().getSelectedItem();
+        Object kivalasztott = null;
+        if (!HelloAppTest.isRunningTest) kivalasztott = lv_lista.getSelectionModel().getSelectedItem();
         if (kivalasztott != null) {
             alakzatLista.remove(kivalasztott);
         }
     }
 
     public void onMentes(ActionEvent actionEvent) {
-        File file = new File("alakzat.dat");
+        File file = null;
+        if (!HelloAppTest.isRunningTest) file = new File("alakzat.dat");
 
-        try (BufferedWriter writer = new BufferedWriter(new FileWriter(file))) {
-            for (Alakzat elem : alakzatLista) {
-                writer.write(elem.getSzin() + ";" + elem.getAlakzat());
-                writer.newLine();
+        if (!HelloAppTest.isRunningTest) {
+            try (BufferedWriter writer = new BufferedWriter(new FileWriter(file))) {
+                for (Alakzat elem : alakzatLista) {
+                    writer.write(elem.getSzin() + ";" + elem.getAlakzat());
+                    writer.newLine();
+                }
+            } catch (IOException e) {
+                e.printStackTrace();
             }
-        } catch (IOException e) {
-            e.printStackTrace();
         }
     }
 }
