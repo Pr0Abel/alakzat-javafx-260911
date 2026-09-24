@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+<HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.alakzatjavafx260911.HelloController">
+   <children>
+      <VBox alignment="TOP_CENTER" prefHeight="400.0" prefWidth="300.0">
+         <children>
+            <HBox prefHeight="160.0" prefWidth="300.0">
+               <children>
+                  <VBox alignment="CENTER_LEFT" prefHeight="159.0" prefWidth="151.0">
+                     <children>
+                        <RadioButton fx:id="rb_piros" mnemonicParsing="false" onAction="#onSzinClick" text="Piros">
+                           <VBox.margin>
+                              <Insets bottom="25.0" />
+                           </VBox.margin>
+                           <toggleGroup>
+                              <ToggleGroup fx:id="color" />
+                           </toggleGroup>
+                        </RadioButton>
+                        <RadioButton fx:id="rb_zold" mnemonicParsing="false" onAction="#onSzinClick" text="Zöld" toggleGroup="$color">
+                           <VBox.margin>
+                              <Insets bottom="25.0" />
+                           </VBox.margin>
+                        </RadioButton>
+                        <RadioButton fx:id="rb_kek" mnemonicParsing="false" onAction="#onSzinClick" text="Kék" toggleGroup="$color" />
+                     </children>
+                     <padding>
+                        <Insets left="25.0" />
+                     </padding>
+                  </VBox>
+                  <VBox alignment="CENTER_LEFT" prefHeight="159.0" prefWidth="149.0">
+                     <children>
+                        <RadioButton fx:id="rb_negyzet" mnemonicParsing="false" onAction="#onAlakzatClick" text="Négyzet">
+                           <VBox.margin>
+                              <Insets bottom="25.0" />
+                           </VBox.margin>
+                           <toggleGroup>
+                              <ToggleGroup fx:id="forma" />
+                           </toggleGroup>
+                        </RadioButton>
+                        <RadioButton fx:id="rb_kor" mnemonicParsing="false" onAction="#onAlakzatClick" text="Kör" toggleGroup="$forma">
+                           <VBox.margin>
+                              <Insets bottom="25.0" />
+                           </VBox.margin>
+                        </RadioButton>
+                        <RadioButton fx:id="rb_haromszog" mnemonicParsing="false" onAction="#onAlakzatClick" text="Háromszög" toggleGroup="$forma" />
+                     </children>
+                     <padding>
+                        <Insets left="10.0" />
+                     </padding>
+                  </VBox>
+               </children>
+            </HBox>
+            <Label fx:id="l_kep" style=": red;">
+               <graphic>
+                  <ImageView fx:id="iv_kep" fitHeight="225.0" fitWidth="225.0" pickOnBounds="true" preserveRatio="true" />
+               </graphic>
+            </Label>
+         </children>
+      </VBox>
+      <VBox alignment="TOP_CENTER" prefHeight="400.0" prefWidth="300.0">
+         <children>
+            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <Button mnemonicParsing="false" onAction="#onHozzaad" prefWidth="100.0" text="Hozzáad">
+                     <HBox.margin>
+                        <Insets right="25.0" />
+                     </HBox.margin>
+                     <graphic>
+                        <ImageView fitHeight="16.0" fitWidth="16.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@add16.png" />
+                           </image></ImageView>
+                     </graphic>
+                  </Button>
+                  <Button mnemonicParsing="false" onAction="#onTorol" prefWidth="100.0" text="Töröl">
+                     <graphic>
+                        <ImageView fitHeight="16.0" fitWidth="16.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@del16.png" />
+                           </image></ImageView>
+                     </graphic></Button>
+               </children>
+            </HBox>
+            <ListView fx:id="lv_lista" prefHeight="228.0" prefWidth="300.0" />
+            <Button mnemonicParsing="false" onAction="#onMentes" prefWidth="100.0" text="Mentés">
+               <VBox.margin>
+                  <Insets top="25.0" />
+               </VBox.margin>
+               <graphic>
+                  <ImageView fitHeight="16.0" fitWidth="16.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@save16.png" />
+                     </image></ImageView>
+               </graphic>
+            </Button>
+         </children>
+      </VBox>
+   </children>
+</HBox>

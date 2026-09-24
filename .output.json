@@ -1,0 +1,992 @@
+{
+    "filePath": "src\\main\\resources\\com\\example\\alakzatjavafx260911\\hello-view.fxml",
+    "errors": [
+        {
+            "severity": "ERROR",
+            "description": "Cannot resolve symbol 'HBox'",
+            "lineContent": "<HBox maxHeight=\"-Infinity\" maxWidth=\"-Infinity\" minHeight=\"-Infinity\" minWidth=\"-Infinity\" prefHeight=\"400.0\" prefWidth=\"600.0\" xmlns=\"http://javafx.com/javafx/17.0.2-ea\" xmlns:fx=\"http://javafx.com/fxml/1\">",
+            "line": 10,
+            "column": 2
+        },
+        {
+            "severity": "ERROR",
+            "description": "Cannot resolve symbol 'HBox'",
+            "lineContent": "</HBox>",
+            "line": 78,
+            "column": 3
+        },
+        {
+            "severity": "ERROR",
+            "description": "Attribute maxHeight is not allowed here",
+            "lineContent": "<HBox maxHeight=\"-Infinity\" maxWidth=\"-Infinity\" minHeight=\"-Infinity\" minWidth=\"-Infinity\" prefHeight=\"400.0\" prefWidth=\"600.0\" xmlns=\"http://javafx.com/javafx/17.0.2-ea\" xmlns:fx=\"http://javafx.com/fxml/1\">",
+            "line": 10,
+            "column": 7
+        },
+        {
+            "severity": "ERROR",
+            "description": "Attribute maxWidth is not allowed here",
+            "lineContent": "<HBox maxHeight=\"-Infinity\" maxWidth=\"-Infinity\" minHeight=\"-Infinity\" minWidth=\"-Infinity\" prefHeight=\"400.0\" prefWidth=\"600.0\" xmlns=\"http://javafx.com/javafx/17.0.2-ea\" xmlns:fx=\"http://javafx.com/fxml/1\">",
+            "line": 10,
+            "column": 29
+        },
+        {
+            "severity": "ERROR",
+            "description": "Attribute minHeight is not allowed here",
+            "lineContent": "<HBox maxHeight=\"-Infinity\" maxWidth=\"-Infinity\" minHeight=\"-Infinity\" minWidth=\"-Infinity\" prefHeight=\"400.0\" prefWidth=\"600.0\" xmlns=\"http://javafx.com/javafx/17.0.2-ea\" xmlns:fx=\"http://javafx.com/fxml/1\">",
+            "line": 10,
+            "column": 50
+        },
+        {
+            "severity": "ERROR",
+            "description": "Attribute minWidth is not allowed here",
+            "lineContent": "<HBox maxHeight=\"-Infinity\" maxWidth=\"-Infinity\" minHeight=\"-Infinity\" minWidth=\"-Infinity\" prefHeight=\"400.0\" prefWidth=\"600.0\" xmlns=\"http://javafx.com/javafx/17.0.2-ea\" xmlns:fx=\"http://javafx.com/fxml/1\">",
+            "line": 10,
+            "column": 72
+        },
+        {
+            "severity": "ERROR",
+            "description": "Attribute prefHeight is not allowed here",
+            "lineContent": "<HBox maxHeight=\"-Infinity\" maxWidth=\"-Infinity\" minHeight=\"-Infinity\" minWidth=\"-Infinity\" prefHeight=\"400.0\" prefWidth=\"600.0\" xmlns=\"http://javafx.com/javafx/17.0.2-ea\" xmlns:fx=\"http://javafx.com/fxml/1\">",
+            "line": 10,
+            "column": 93
+        },
+        {
+            "severity": "ERROR",
+            "description": "Attribute prefWidth is not allowed here",
+            "lineContent": "<HBox maxHeight=\"-Infinity\" maxWidth=\"-Infinity\" minHeight=\"-Infinity\" minWidth=\"-Infinity\" prefHeight=\"400.0\" prefWidth=\"600.0\" xmlns=\"http://javafx.com/javafx/17.0.2-ea\" xmlns:fx=\"http://javafx.com/fxml/1\">",
+            "line": 10,
+            "column": 112
+        },
+        {
+            "severity": "ERROR",
+            "description": "Cannot resolve symbol 'children'",
+            "lineContent": "   <children>",
+            "line": 11,
+            "column": 5
+        },
+        {
+            "severity": "ERROR",
+            "description": "Cannot resolve symbol 'children'",
+            "lineContent": "   </children>",
+            "line": 77,
+            "column": 6
+        },
+        {
+            "severity": "ERROR",
+            "description": "Cannot resolve symbol 'VBox'",
+            "lineContent": "      <VBox alignment=\"TOP_CENTER\" prefHeight=\"400.0\" prefWidth=\"300.0\">",
+            "line": 12,
+            "column": 8
+        },
+        {
+            "severity": "ERROR",
+            "description": "Cannot resolve symbol 'VBox'",
+            "lineContent": "      </VBox>",
+            "line": 56,
+            "column": 9
+        },
+        {
+            "severity": "ERROR",
+            "description": "Attribute alignment is not allowed here",
+            "lineContent": "      <VBox alignment=\"TOP_CENTER\" prefHeight=\"400.0\" prefWidth=\"300.0\">",
+            "line": 12,
+            "column": 13
+        },
+        {
+            "severity": "ERROR",
+            "description": "Attribute prefHeight is not allowed here",
+            "lineContent": "      <VBox alignment=\"TOP_CENTER\" prefHeight=\"400.0\" prefWidth=\"300.0\">",
+            "line": 12,
+            "column": 36
+        },
+        {
+            "severity": "ERROR",
+            "description": "Attribute prefWidth is not allowed here",
+            "lineContent": "      <VBox alignment=\"TOP_CENTER\" prefHeight=\"400.0\" prefWidth=\"300.0\">",
+            "line": 12,
+            "column": 55
+        },
+        {
+            "severity": "ERROR",
+            "description": "Cannot resolve symbol 'children'",
+            "lineContent": "         <children>",
+            "line": 13,
+            "column": 11
+        },
+        {
+            "severity": "ERROR",
+            "description": "Cannot resolve symbol 'children'",
+            "lineContent": "         </children>",
+            "line": 55,
+            "column": 12
+        },
+        {
+            "severity": "ERROR",
+            "description": "Cannot resolve symbol 'HBox'",
+            "lineContent": "            <HBox prefHeight=\"160.0\" prefWidth=\"300.0\">",
+            "line": 14,
+            "column": 14
+        },
+        {
+            "severity": "ERROR",
+            "description": "Cannot resolve symbol 'HBox'",
+            "lineContent": "            </HBox>",
+            "line": 53,
+            "column": 15
+        },
+        {
+            "severity": "ERROR",
+            "description": "Attribute prefHeight is not allowed here",
+            "lineContent": "            <HBox prefHeight=\"160.0\" prefWidth=\"300.0\">",
+            "line": 14,
+            "column": 19
+        },
+        {
+            "severity": "ERROR",
+            "description": "Attribute prefWidth is not allowed here",
+            "lineContent": "            <HBox prefHeight=\"160.0\" prefWidth=\"300.0\">",
+            "line": 14,
+            "column": 38
+        },
+        {
+            "severity": "ERROR",
+            "description": "Cannot resolve symbol 'children'",
+            "lineContent": "               <children>",
+            "line": 15,
+            "column": 17
+        },
+        {
+            "severity": "ERROR",
+            "description": "Cannot resolve symbol 'children'",
+            "lineContent": "               </children>",
+            "line": 52,
+            "column": 18
+        },
+        {
+            "severity": "ERROR",
+            "description": "Cannot resolve symbol 'VBox'",
+            "lineContent": "                  <VBox alignment=\"CENTER_LEFT\" prefHeight=\"159.0\" prefWidth=\"151.0\">",
+            "line": 16,
+            "column": 20
+        },
+        {
+            "severity": "ERROR",
+            "description": "Cannot resolve symbol 'VBox'",
+            "lineContent": "                  </VBox>",
+            "line": 33,
+            "column": 21
+        },
+        {
+            "severity": "ERROR",
+            "description": "Attribute alignment is not allowed here",
+            "lineContent": "                  <VBox alignment=\"CENTER_LEFT\" prefHeight=\"159.0\" prefWidth=\"151.0\">",
+            "line": 16,
+            "column": 25
+        },
+        {
+            "severity": "ERROR",
+            "description": "Attribute prefHeight is not allowed here",
+            "lineContent": "                  <VBox alignment=\"CENTER_LEFT\" prefHeight=\"159.0\" prefWidth=\"151.0\">",
+            "line": 16,
+            "column": 49
+        },
+        {
+            "severity": "ERROR",
+            "description": "Attribute prefWidth is not allowed here",
+            "lineContent": "                  <VBox alignment=\"CENTER_LEFT\" prefHeight=\"159.0\" prefWidth=\"151.0\">",
+            "line": 16,
+            "column": 68
+        },
+        {
+            "severity": "ERROR",
+            "description": "Cannot resolve symbol 'children'",
+            "lineContent": "                     <children>",
+            "line": 17,
+            "column": 23
+        },
+        {
+            "severity": "ERROR",
+            "description": "Cannot resolve symbol 'children'",
+            "lineContent": "                     </children>",
+            "line": 32,
+            "column": 24
+        },
+        {
+            "severity": "ERROR",
+            "description": "Cannot resolve symbol 'RadioButton'",
+            "lineContent": "                        <RadioButton mnemonicParsing=\"false\" text=\"Piros\">",
+            "line": 18,
+            "column": 26
+        },
+        {
+            "severity": "ERROR",
+            "description": "Cannot resolve symbol 'RadioButton'",
+            "lineContent": "                        </RadioButton>",
+            "line": 25,
+            "column": 27
+        },
+        {
+            "severity": "ERROR",
+            "description": "Attribute mnemonicParsing is not allowed here",
+            "lineContent": "                        <RadioButton mnemonicParsing=\"false\" text=\"Piros\">",
+            "line": 18,
+            "column": 38
+        },
+        {
+            "severity": "ERROR",
+            "description": "Attribute text is not allowed here",
+            "lineContent": "                        <RadioButton mnemonicParsing=\"false\" text=\"Piros\">",
+            "line": 18,
+            "column": 62
+        },
+        {
+            "severity": "ERROR",
+            "description": "Element VBox.margin is not allowed here",
+            "lineContent": "                           <VBox.margin>",
+            "line": 19,
+            "column": 29
+        },
+        {
+            "severity": "ERROR",
+            "description": "Element VBox.margin is not allowed here",
+            "lineContent": "                           </VBox.margin>",
+            "line": 21,
+            "column": 30
+        },
+        {
+            "severity": "ERROR",
+            "description": "Cannot resolve symbol 'Insets'",
+            "lineContent": "                              <Insets bottom=\"25.0\" />",
+            "line": 20,
+            "column": 32
+        },
+        {
+            "severity": "ERROR",
+            "description": "Cannot resolve symbol 'toggleGroup'",
+            "lineContent": "                           <toggleGroup>",
+            "line": 22,
+            "column": 29
+        },
+        {
+            "severity": "ERROR",
+            "description": "Cannot resolve symbol 'toggleGroup'",
+            "lineContent": "                           </toggleGroup>",
+            "line": 24,
+            "column": 30
+        },
+        {
+            "severity": "ERROR",
+            "description": "Cannot resolve symbol 'ToggleGroup'",
+            "lineContent": "                              <ToggleGroup fx:id=\"szin\" />",
+            "line": 23,
+            "column": 32
+        },
+        {
+            "severity": "ERROR",
+            "description": "Attribute fx:id is not allowed here",
+            "lineContent": "                              <ToggleGroup fx:id=\"szin\" />",
+            "line": 23,
+            "column": 44
+        },
+        {
+            "severity": "ERROR",
+            "description": "Cannot resolve symbol 'RadioButton'",
+            "lineContent": "                        <RadioButton mnemonicParsing=\"false\" text=\"Zöld\" toggleGroup=\"$szin\">",
+            "line": 26,
+            "column": 26
+        },
+        {
+            "severity": "ERROR",
+            "description": "Cannot resolve symbol 'RadioButton'",
+            "lineContent": "                        </RadioButton>",
+            "line": 30,
+            "column": 27
+        },
+        {
+            "severity": "ERROR",
+            "description": "Attribute mnemonicParsing is not allowed here",
+            "lineContent": "                        <RadioButton mnemonicParsing=\"false\" text=\"Zöld\" toggleGroup=\"$szin\">",
+            "line": 26,
+            "column": 38
+        },
+        {
+            "severity": "ERROR",
+            "description": "Attribute text is not allowed here",
+            "lineContent": "                        <RadioButton mnemonicParsing=\"false\" text=\"Zöld\" toggleGroup=\"$szin\">",
+            "line": 26,
+            "column": 62
+        },
+        {
+            "severity": "ERROR",
+            "description": "Attribute toggleGroup is not allowed here",
+            "lineContent": "                        <RadioButton mnemonicParsing=\"false\" text=\"Zöld\" toggleGroup=\"$szin\">",
+            "line": 26,
+            "column": 74
+        },
+        {
+            "severity": "ERROR",
+            "description": "Element VBox.margin is not allowed here",
+            "lineContent": "                           <VBox.margin>",
+            "line": 27,
+            "column": 29
+        },
+        {
+            "severity": "ERROR",
+            "description": "Element VBox.margin is not allowed here",
+            "lineContent": "                           </VBox.margin>",
+            "line": 29,
+            "column": 30
+        },
+        {
+            "severity": "ERROR",
+            "description": "Cannot resolve symbol 'Insets'",
+            "lineContent": "                              <Insets bottom=\"25.0\" />",
+            "line": 28,
+            "column": 32
+        },
+        {
+            "severity": "ERROR",
+            "description": "Cannot resolve symbol 'RadioButton'",
+            "lineContent": "                        <RadioButton mnemonicParsing=\"false\" text=\"Kék\" toggleGroup=\"$szin\" />",
+            "line": 31,
+            "column": 26
+        },
+        {
+            "severity": "ERROR",
+            "description": "Attribute mnemonicParsing is not allowed here",
+            "lineContent": "                        <RadioButton mnemonicParsing=\"false\" text=\"Kék\" toggleGroup=\"$szin\" />",
+            "line": 31,
+            "column": 38
+        },
+        {
+            "severity": "ERROR",
+            "description": "Attribute text is not allowed here",
+            "lineContent": "                        <RadioButton mnemonicParsing=\"false\" text=\"Kék\" toggleGroup=\"$szin\" />",
+            "line": 31,
+            "column": 62
+        },
+        {
+            "severity": "ERROR",
+            "description": "Attribute toggleGroup is not allowed here",
+            "lineContent": "                        <RadioButton mnemonicParsing=\"false\" text=\"Kék\" toggleGroup=\"$szin\" />",
+            "line": 31,
+            "column": 73
+        },
+        {
+            "severity": "ERROR",
+            "description": "Cannot resolve symbol 'VBox'",
+            "lineContent": "                  <VBox alignment=\"CENTER_LEFT\" prefHeight=\"159.0\" prefWidth=\"149.0\">",
+            "line": 34,
+            "column": 20
+        },
+        {
+            "severity": "ERROR",
+            "description": "Cannot resolve symbol 'VBox'",
+            "lineContent": "                  </VBox>",
+            "line": 51,
+            "column": 21
+        },
+        {
+            "severity": "ERROR",
+            "description": "Attribute alignment is not allowed here",
+            "lineContent": "                  <VBox alignment=\"CENTER_LEFT\" prefHeight=\"159.0\" prefWidth=\"149.0\">",
+            "line": 34,
+            "column": 25
+        },
+        {
+            "severity": "ERROR",
+            "description": "Attribute prefHeight is not allowed here",
+            "lineContent": "                  <VBox alignment=\"CENTER_LEFT\" prefHeight=\"159.0\" prefWidth=\"149.0\">",
+            "line": 34,
+            "column": 49
+        },
+        {
+            "severity": "ERROR",
+            "description": "Attribute prefWidth is not allowed here",
+            "lineContent": "                  <VBox alignment=\"CENTER_LEFT\" prefHeight=\"159.0\" prefWidth=\"149.0\">",
+            "line": 34,
+            "column": 68
+        },
+        {
+            "severity": "ERROR",
+            "description": "Cannot resolve symbol 'children'",
+            "lineContent": "                     <children>",
+            "line": 35,
+            "column": 23
+        },
+        {
+            "severity": "ERROR",
+            "description": "Cannot resolve symbol 'children'",
+            "lineContent": "                     </children>",
+            "line": 50,
+            "column": 24
+        },
+        {
+            "severity": "ERROR",
+            "description": "Cannot resolve symbol 'RadioButton'",
+            "lineContent": "                        <RadioButton mnemonicParsing=\"false\" text=\"Négyzet\">",
+            "line": 36,
+            "column": 26
+        },
+        {
+            "severity": "ERROR",
+            "description": "Cannot resolve symbol 'RadioButton'",
+            "lineContent": "                        </RadioButton>",
+            "line": 43,
+            "column": 27
+        },
+        {
+            "severity": "ERROR",
+            "description": "Attribute mnemonicParsing is not allowed here",
+            "lineContent": "                        <RadioButton mnemonicParsing=\"false\" text=\"Négyzet\">",
+            "line": 36,
+            "column": 38
+        },
+        {
+            "severity": "ERROR",
+            "description": "Attribute text is not allowed here",
+            "lineContent": "                        <RadioButton mnemonicParsing=\"false\" text=\"Négyzet\">",
+            "line": 36,
+            "column": 62
+        },
+        {
+            "severity": "ERROR",
+            "description": "Element VBox.margin is not allowed here",
+            "lineContent": "                           <VBox.margin>",
+            "line": 37,
+            "column": 29
+        },
+        {
+            "severity": "ERROR",
+            "description": "Element VBox.margin is not allowed here",
+            "lineContent": "                           </VBox.margin>",
+            "line": 39,
+            "column": 30
+        },
+        {
+            "severity": "ERROR",
+            "description": "Cannot resolve symbol 'Insets'",
+            "lineContent": "                              <Insets bottom=\"25.0\" />",
+            "line": 38,
+            "column": 32
+        },
+        {
+            "severity": "ERROR",
+            "description": "Cannot resolve symbol 'toggleGroup'",
+            "lineContent": "                           <toggleGroup>",
+            "line": 40,
+            "column": 29
+        },
+        {
+            "severity": "ERROR",
+            "description": "Cannot resolve symbol 'toggleGroup'",
+            "lineContent": "                           </toggleGroup>",
+            "line": 42,
+            "column": 30
+        },
+        {
+            "severity": "ERROR",
+            "description": "Cannot resolve symbol 'ToggleGroup'",
+            "lineContent": "                              <ToggleGroup fx:id=\"forma\" />",
+            "line": 41,
+            "column": 32
+        },
+        {
+            "severity": "ERROR",
+            "description": "Attribute fx:id is not allowed here",
+            "lineContent": "                              <ToggleGroup fx:id=\"forma\" />",
+            "line": 41,
+            "column": 44
+        },
+        {
+            "severity": "ERROR",
+            "description": "Cannot resolve symbol 'RadioButton'",
+            "lineContent": "                        <RadioButton mnemonicParsing=\"false\" text=\"Kör\" toggleGroup=\"$forma\">",
+            "line": 44,
+            "column": 26
+        },
+        {
+            "severity": "ERROR",
+            "description": "Cannot resolve symbol 'RadioButton'",
+            "lineContent": "                        </RadioButton>",
+            "line": 48,
+            "column": 27
+        },
+        {
+            "severity": "ERROR",
+            "description": "Attribute mnemonicParsing is not allowed here",
+            "lineContent": "                        <RadioButton mnemonicParsing=\"false\" text=\"Kör\" toggleGroup=\"$forma\">",
+            "line": 44,
+            "column": 38
+        },
+        {
+            "severity": "ERROR",
+            "description": "Attribute text is not allowed here",
+            "lineContent": "                        <RadioButton mnemonicParsing=\"false\" text=\"Kör\" toggleGroup=\"$forma\">",
+            "line": 44,
+            "column": 62
+        },
+        {
+            "severity": "ERROR",
+            "description": "Attribute toggleGroup is not allowed here",
+            "lineContent": "                        <RadioButton mnemonicParsing=\"false\" text=\"Kör\" toggleGroup=\"$forma\">",
+            "line": 44,
+            "column": 73
+        },
+        {
+            "severity": "ERROR",
+            "description": "Element VBox.margin is not allowed here",
+            "lineContent": "                           <VBox.margin>",
+            "line": 45,
+            "column": 29
+        },
+        {
+            "severity": "ERROR",
+            "description": "Element VBox.margin is not allowed here",
+            "lineContent": "                           </VBox.margin>",
+            "line": 47,
+            "column": 30
+        },
+        {
+            "severity": "ERROR",
+            "description": "Cannot resolve symbol 'Insets'",
+            "lineContent": "                              <Insets bottom=\"25.0\" />",
+            "line": 46,
+            "column": 32
+        },
+        {
+            "severity": "ERROR",
+            "description": "Cannot resolve symbol 'RadioButton'",
+            "lineContent": "                        <RadioButton mnemonicParsing=\"false\" text=\"Háromszög\" toggleGroup=\"$forma\" />",
+            "line": 49,
+            "column": 26
+        },
+        {
+            "severity": "ERROR",
+            "description": "Attribute mnemonicParsing is not allowed here",
+            "lineContent": "                        <RadioButton mnemonicParsing=\"false\" text=\"Háromszög\" toggleGroup=\"$forma\" />",
+            "line": 49,
+            "column": 38
+        },
+        {
+            "severity": "ERROR",
+            "description": "Attribute text is not allowed here",
+            "lineContent": "                        <RadioButton mnemonicParsing=\"false\" text=\"Háromszög\" toggleGroup=\"$forma\" />",
+            "line": 49,
+            "column": 62
+        },
+        {
+            "severity": "ERROR",
+            "description": "Attribute toggleGroup is not allowed here",
+            "lineContent": "                        <RadioButton mnemonicParsing=\"false\" text=\"Háromszög\" toggleGroup=\"$forma\" />",
+            "line": 49,
+            "column": 79
+        },
+        {
+            "severity": "ERROR",
+            "description": "Cannot resolve symbol 'ImageView'",
+            "lineContent": "            <ImageView fitHeight=\"150.0\" fitWidth=\"200.0\" pickOnBounds=\"true\" preserveRatio=\"true\" />",
+            "line": 54,
+            "column": 14
+        },
+        {
+            "severity": "ERROR",
+            "description": "Attribute fitHeight is not allowed here",
+            "lineContent": "            <ImageView fitHeight=\"150.0\" fitWidth=\"200.0\" pickOnBounds=\"true\" preserveRatio=\"true\" />",
+            "line": 54,
+            "column": 24
+        },
+        {
+            "severity": "ERROR",
+            "description": "Attribute fitWidth is not allowed here",
+            "lineContent": "            <ImageView fitHeight=\"150.0\" fitWidth=\"200.0\" pickOnBounds=\"true\" preserveRatio=\"true\" />",
+            "line": 54,
+            "column": 42
+        },
+        {
+            "severity": "ERROR",
+            "description": "Attribute pickOnBounds is not allowed here",
+            "lineContent": "            <ImageView fitHeight=\"150.0\" fitWidth=\"200.0\" pickOnBounds=\"true\" preserveRatio=\"true\" />",
+            "line": 54,
+            "column": 59
+        },
+        {
+            "severity": "ERROR",
+            "description": "Attribute preserveRatio is not allowed here",
+            "lineContent": "            <ImageView fitHeight=\"150.0\" fitWidth=\"200.0\" pickOnBounds=\"true\" preserveRatio=\"true\" />",
+            "line": 54,
+            "column": 79
+        },
+        {
+            "severity": "ERROR",
+            "description": "Cannot resolve symbol 'VBox'",
+            "lineContent": "      <VBox alignment=\"TOP_CENTER\" prefHeight=\"400.0\" prefWidth=\"300.0\">",
+            "line": 57,
+            "column": 8
+        },
+        {
+            "severity": "ERROR",
+            "description": "Cannot resolve symbol 'VBox'",
+            "lineContent": "      </VBox>",
+            "line": 76,
+            "column": 9
+        },
+        {
+            "severity": "ERROR",
+            "description": "Attribute alignment is not allowed here",
+            "lineContent": "      <VBox alignment=\"TOP_CENTER\" prefHeight=\"400.0\" prefWidth=\"300.0\">",
+            "line": 57,
+            "column": 13
+        },
+        {
+            "severity": "ERROR",
+            "description": "Attribute prefHeight is not allowed here",
+            "lineContent": "      <VBox alignment=\"TOP_CENTER\" prefHeight=\"400.0\" prefWidth=\"300.0\">",
+            "line": 57,
+            "column": 36
+        },
+        {
+            "severity": "ERROR",
+            "description": "Attribute prefWidth is not allowed here",
+            "lineContent": "      <VBox alignment=\"TOP_CENTER\" prefHeight=\"400.0\" prefWidth=\"300.0\">",
+            "line": 57,
+            "column": 55
+        },
+        {
+            "severity": "ERROR",
+            "description": "Cannot resolve symbol 'children'",
+            "lineContent": "         <children>",
+            "line": 58,
+            "column": 11
+        },
+        {
+            "severity": "ERROR",
+            "description": "Cannot resolve symbol 'children'",
+            "lineContent": "         </children>",
+            "line": 75,
+            "column": 12
+        },
+        {
+            "severity": "ERROR",
+            "description": "Cannot resolve symbol 'HBox'",
+            "lineContent": "            <HBox alignment=\"CENTER\" prefHeight=\"100.0\" prefWidth=\"200.0\">",
+            "line": 59,
+            "column": 14
+        },
+        {
+            "severity": "ERROR",
+            "description": "Cannot resolve symbol 'HBox'",
+            "lineContent": "            </HBox>",
+            "line": 68,
+            "column": 15
+        },
+        {
+            "severity": "ERROR",
+            "description": "Attribute alignment is not allowed here",
+            "lineContent": "            <HBox alignment=\"CENTER\" prefHeight=\"100.0\" prefWidth=\"200.0\">",
+            "line": 59,
+            "column": 19
+        },
+        {
+            "severity": "ERROR",
+            "description": "Attribute prefHeight is not allowed here",
+            "lineContent": "            <HBox alignment=\"CENTER\" prefHeight=\"100.0\" prefWidth=\"200.0\">",
+            "line": 59,
+            "column": 38
+        },
+        {
+            "severity": "ERROR",
+            "description": "Attribute prefWidth is not allowed here",
+            "lineContent": "            <HBox alignment=\"CENTER\" prefHeight=\"100.0\" prefWidth=\"200.0\">",
+            "line": 59,
+            "column": 57
+        },
+        {
+            "severity": "ERROR",
+            "description": "Cannot resolve symbol 'children'",
+            "lineContent": "               <children>",
+            "line": 60,
+            "column": 17
+        },
+        {
+            "severity": "ERROR",
+            "description": "Cannot resolve symbol 'children'",
+            "lineContent": "               </children>",
+            "line": 67,
+            "column": 18
+        },
+        {
+            "severity": "ERROR",
+            "description": "Cannot resolve symbol 'Button'",
+            "lineContent": "                  <Button mnemonicParsing=\"false\" prefWidth=\"100.0\" text=\"Hozzáad\">",
+            "line": 61,
+            "column": 20
+        },
+        {
+            "severity": "ERROR",
+            "description": "Cannot resolve symbol 'Button'",
+            "lineContent": "                  </Button>",
+            "line": 65,
+            "column": 21
+        },
+        {
+            "severity": "ERROR",
+            "description": "Attribute mnemonicParsing is not allowed here",
+            "lineContent": "                  <Button mnemonicParsing=\"false\" prefWidth=\"100.0\" text=\"Hozzáad\">",
+            "line": 61,
+            "column": 27
+        },
+        {
+            "severity": "ERROR",
+            "description": "Attribute prefWidth is not allowed here",
+            "lineContent": "                  <Button mnemonicParsing=\"false\" prefWidth=\"100.0\" text=\"Hozzáad\">",
+            "line": 61,
+            "column": 51
+        },
+        {
+            "severity": "ERROR",
+            "description": "Attribute text is not allowed here",
+            "lineContent": "                  <Button mnemonicParsing=\"false\" prefWidth=\"100.0\" text=\"Hozzáad\">",
+            "line": 61,
+            "column": 69
+        },
+        {
+            "severity": "ERROR",
+            "description": "Element HBox.margin is not allowed here",
+            "lineContent": "                     <HBox.margin>",
+            "line": 62,
+            "column": 23
+        },
+        {
+            "severity": "ERROR",
+            "description": "Element HBox.margin is not allowed here",
+            "lineContent": "                     </HBox.margin>",
+            "line": 64,
+            "column": 24
+        },
+        {
+            "severity": "ERROR",
+            "description": "Cannot resolve symbol 'Insets'",
+            "lineContent": "                        <Insets right=\"25.0\" />",
+            "line": 63,
+            "column": 26
+        },
+        {
+            "severity": "ERROR",
+            "description": "Cannot resolve symbol 'Button'",
+            "lineContent": "                  <Button mnemonicParsing=\"false\" prefWidth=\"100.0\" text=\"Töröl\" />",
+            "line": 66,
+            "column": 20
+        },
+        {
+            "severity": "ERROR",
+            "description": "Attribute mnemonicParsing is not allowed here",
+            "lineContent": "                  <Button mnemonicParsing=\"false\" prefWidth=\"100.0\" text=\"Töröl\" />",
+            "line": 66,
+            "column": 27
+        },
+        {
+            "severity": "ERROR",
+            "description": "Attribute prefWidth is not allowed here",
+            "lineContent": "                  <Button mnemonicParsing=\"false\" prefWidth=\"100.0\" text=\"Töröl\" />",
+            "line": 66,
+            "column": 51
+        },
+        {
+            "severity": "ERROR",
+            "description": "Attribute text is not allowed here",
+            "lineContent": "                  <Button mnemonicParsing=\"false\" prefWidth=\"100.0\" text=\"Töröl\" />",
+            "line": 66,
+            "column": 69
+        },
+        {
+            "severity": "ERROR",
+            "description": "Cannot resolve symbol 'ListView'",
+            "lineContent": "            <ListView prefHeight=\"200.0\" prefWidth=\"200.0\" />",
+            "line": 69,
+            "column": 14
+        },
+        {
+            "severity": "ERROR",
+            "description": "Attribute prefHeight is not allowed here",
+            "lineContent": "            <ListView prefHeight=\"200.0\" prefWidth=\"200.0\" />",
+            "line": 69,
+            "column": 23
+        },
+        {
+            "severity": "ERROR",
+            "description": "Attribute prefWidth is not allowed here",
+            "lineContent": "            <ListView prefHeight=\"200.0\" prefWidth=\"200.0\" />",
+            "line": 69,
+            "column": 42
+        },
+        {
+            "severity": "ERROR",
+            "description": "Cannot resolve symbol 'Button'",
+            "lineContent": "            <Button mnemonicParsing=\"false\" prefWidth=\"100.0\" text=\"Mentés\">",
+            "line": 70,
+            "column": 14
+        },
+        {
+            "severity": "ERROR",
+            "description": "Cannot resolve symbol 'Button'",
+            "lineContent": "            </Button>",
+            "line": 74,
+            "column": 15
+        },
+        {
+            "severity": "ERROR",
+            "description": "Attribute mnemonicParsing is not allowed here",
+            "lineContent": "            <Button mnemonicParsing=\"false\" prefWidth=\"100.0\" text=\"Mentés\">",
+            "line": 70,
+            "column": 21
+        },
+        {
+            "severity": "ERROR",
+            "description": "Attribute prefWidth is not allowed here",
+            "lineContent": "            <Button mnemonicParsing=\"false\" prefWidth=\"100.0\" text=\"Mentés\">",
+            "line": 70,
+            "column": 45
+        },
+        {
+            "severity": "ERROR",
+            "description": "Attribute text is not allowed here",
+            "lineContent": "            <Button mnemonicParsing=\"false\" prefWidth=\"100.0\" text=\"Mentés\">",
+            "line": 70,
+            "column": 63
+        },
+        {
+            "severity": "ERROR",
+            "description": "Element VBox.margin is not allowed here",
+            "lineContent": "               <VBox.margin>",
+            "line": 71,
+            "column": 17
+        },
+        {
+            "severity": "ERROR",
+            "description": "Element VBox.margin is not allowed here",
+            "lineContent": "               </VBox.margin>",
+            "line": 73,
+            "column": 18
+        },
+        {
+            "severity": "ERROR",
+            "description": "Cannot resolve symbol 'Insets'",
+            "lineContent": "                  <Insets top=\"25.0\" />",
+            "line": 72,
+            "column": 20
+        },
+        {
+            "severity": "ERROR",
+            "description": "Cannot resolve class or package 'javafx'",
+            "lineContent": "<?import javafx.geometry.*?>",
+            "line": 3,
+            "column": 10
+        },
+        {
+            "severity": "ERROR",
+            "description": "Cannot resolve class or package 'geometry'",
+            "lineContent": "<?import javafx.geometry.*?>",
+            "line": 3,
+            "column": 17
+        },
+        {
+            "severity": "ERROR",
+            "description": "Cannot resolve class or package 'scene'",
+            "lineContent": "<?import javafx.scene.control.*?>",
+            "line": 4,
+            "column": 17
+        },
+        {
+            "severity": "ERROR",
+            "description": "Cannot resolve class or package 'javafx'",
+            "lineContent": "<?import javafx.scene.control.*?>",
+            "line": 4,
+            "column": 10
+        },
+        {
+            "severity": "ERROR",
+            "description": "Cannot resolve class or package 'control'",
+            "lineContent": "<?import javafx.scene.control.*?>",
+            "line": 4,
+            "column": 23
+        },
+        {
+            "severity": "ERROR",
+            "description": "Cannot resolve class or package 'scene'",
+            "lineContent": "<?import javafx.scene.image.*?>",
+            "line": 5,
+            "column": 17
+        },
+        {
+            "severity": "ERROR",
+            "description": "Cannot resolve class or package 'image'",
+            "lineContent": "<?import javafx.scene.image.*?>",
+            "line": 5,
+            "column": 23
+        },
+        {
+            "severity": "ERROR",
+            "description": "Cannot resolve class or package 'javafx'",
+            "lineContent": "<?import javafx.scene.image.*?>",
+            "line": 5,
+            "column": 10
+        },
+        {
+            "severity": "ERROR",
+            "description": "Cannot resolve class or package 'scene'",
+            "lineContent": "<?import javafx.scene.layout.*?>",
+            "line": 6,
+            "column": 17
+        },
+        {
+            "severity": "ERROR",
+            "description": "Cannot resolve class or package 'javafx'",
+            "lineContent": "<?import javafx.scene.layout.*?>",
+            "line": 6,
+            "column": 10
+        },
+        {
+            "severity": "ERROR",
+            "description": "Cannot resolve class or package 'layout'",
+            "lineContent": "<?import javafx.scene.layout.*?>",
+            "line": 6,
+            "column": 23
+        },
+        {
+            "severity": "WARNING",
+            "description": "Unused import",
+            "lineContent": "<?import javafx.geometry.*?>",
+            "line": 3,
+            "column": 1
+        },
+        {
+            "severity": "WARNING",
+            "description": "Unused import",
+            "lineContent": "<?import javafx.scene.control.*?>",
+            "line": 4,
+            "column": 1
+        },
+        {
+            "severity": "WARNING",
+            "description": "Unused import",
+            "lineContent": "<?import javafx.scene.image.*?>",
+            "line": 5,
+            "column": 1
+        },
+        {
+            "severity": "WARNING",
+            "description": "Unused import",
+            "lineContent": "<?import javafx.scene.layout.*?>",
+            "line": 6,
+            "column": 1
+        },
+        {
+            "severity": "WARNING",
+            "description": "Unused import",
+            "lineContent": "<?import java.awt.Insets?>",
+            "line": 9,
+            "column": 1
+        }
+    ]
+}
